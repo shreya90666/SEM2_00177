@@ -8,9 +8,10 @@ function checkChar() {
     else if (!isNaN(ch)) {
         result.innerHTML = "Please enter an alphabet!";
     }
-    else if (
-        ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u'
-    ) {
+    else if
+     
+     (ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u')
+     {
         result.innerHTML = "It is a Vowel";
     } 
     else {
